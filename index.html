@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informativa sulla privacy — Tempo Facile</title>
+<meta name="description" content="Informativa sulla privacy dell'app Tempo Facile di QuantumPanda: nessun dato personale raccolto.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f2f2fa;
+    --surface: #ffffff;
+    --text: #13142b;
+    --text-soft: #565a7a;
+    --text-dim: #8a8da6;
+    --line: #e3e3f0;
+    --brand: #5b4bdb;
+    --brand-soft: #ece9ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0c18;
+      --surface: #14152a;
+      --text: #ececf7;
+      --text-soft: #afb1cc;
+      --text-dim: #8587a3;
+      --line: #24263d;
+      --brand: #9d8cff;
+      --brand-soft: #24203f;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0 16px 72px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 720px; margin: 0 auto; }
+
+  header {
+    padding: 48px 0 28px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 32px;
+  }
+
+  .brand { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
+
+  .brand-mark {
+    width: 46px; height: 46px; flex-shrink: 0;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #6e5bff, #3b3bc8 55%, #0e1033);
+    color: #fff;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .brand-name { font-size: 17px; font-weight: 700; letter-spacing: -.2px; }
+  .brand-sub { font-size: 13px; color: var(--text-dim); }
+
+  h1 { font-size: 30px; line-height: 1.2; letter-spacing: -.6px; margin: 0 0 10px; }
+
+  .updated { font-size: 13.5px; color: var(--text-dim); margin: 0; }
+
+  .lang-switch { display: flex; gap: 8px; margin-top: 24px; flex-wrap: wrap; }
+
+  .lang-switch button {
+    padding: 8px 16px;
+    border: 1.5px solid var(--line);
+    border-radius: 99px;
+    background: var(--surface);
+    color: var(--text-soft);
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .lang-switch button[aria-pressed="true"] {
+    border-color: var(--brand);
+    background: var(--brand-soft);
+    color: var(--brand);
+  }
+
+  h2 {
+    font-size: 19px;
+    letter-spacing: -.3px;
+    margin: 36px 0 10px;
+    padding-top: 4px;
+  }
+
+  p { margin: 0 0 14px; color: var(--text-soft); }
+
+  ul { margin: 0 0 14px; padding-left: 22px; color: var(--text-soft); }
+  li { margin-bottom: 6px; }
+
+  strong { color: var(--text); font-weight: 650; }
+
+  .callout {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--brand);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 24px 0 8px;
+  }
+
+  .callout p { margin: 0; color: var(--text); font-size: 16.5px; }
+
+  a { color: var(--brand); overflow-wrap: anywhere; }
+
+  footer {
+    margin-top: 44px;
+    padding-top: 22px;
+    border-top: 1px solid var(--line);
+    font-size: 13.5px;
+    color: var(--text-dim);
+  }
+
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M12 7v5l3.5 2"/>
+        </svg>
+      </div>
+      <div>
+        <div class="brand-name">Tempo Facile</div>
+        <div class="brand-sub">QuantumPanda</div>
+      </div>
+    </div>
+    <h1 data-lang="it">Informativa sulla privacy</h1>
+    <h1 data-lang="en" hidden>Privacy policy</h1>
+    <h1 data-lang="es" hidden>Política de privacidad</h1>
+    <p class="updated" data-lang="it">Ultimo aggiornamento: 29 ottobre 2026</p>
+    <p class="updated" data-lang="en" hidden>Last updated: 29 October 2026</p>
+    <p class="updated" data-lang="es" hidden>Última actualización: 29 de octubre de 2026</p>
+    <div class="lang-switch" role="group" aria-label="Lingua / Language / Idioma">
+      <button type="button" data-set="it" aria-pressed="true">Italiano</button>
+      <button type="button" data-set="en" aria-pressed="false">English</button>
+      <button type="button" data-set="es" aria-pressed="false">Español</button>
+    </div>
+  </header>
+
+  <!-- ============================== ITALIANO ============================== -->
+  <main data-lang="it" lang="it">
+    <div class="callout">
+      <p><strong>Tempo Facile non raccoglie alcun dato personale.</strong> Sveglie, timer, cronometro e allenamenti funzionano interamente sul tuo dispositivo e l'applicazione non ha accesso a internet.</p>
+    </div>
+
+    <h2>1. Titolare del trattamento</h2>
+    <p>L'applicazione Tempo Facile è sviluppata e distribuita da <strong>QuantumPanda</strong>. Per qualsiasi domanda relativa alla presente informativa puoi scrivere a <a href="mailto:app.developer.davide@gmail.com">app.developer.davide@gmail.com</a>.</p>
+
+    <h2>2. Quali dati raccogliamo</h2>
+    <p><strong>Nessuno.</strong> L'applicazione non raccoglie, non trasmette e non conserva su alcun server dati personali, identificatori del dispositivo, dati di utilizzo o posizione. Non sono presenti account, registrazioni o moduli di contatto.</p>
+
+    <h2>3. Dati che restano sul tuo dispositivo</h2>
+    <p>Per poter funzionare, l'applicazione salva alcune informazioni nella memoria locale del telefono, accessibili soltanto all'applicazione stessa:</p>
+    <ul>
+      <li>le sveglie: orario, giorni di ripetizione, etichetta, suoneria scelta, vibrazione e durata del posticipo;</li>
+      <li>i timer in corso e le durate usate come scelte rapide;</li>
+      <li>lo stato del cronometro e i tempi dei giri;</li>
+      <li>gli allenamenti che crei: nomi e durate degli esercizi, pause e numero di giri;</li>
+      <li>le preferenze: tema, suono e vibrazione dei timer, volume crescente, voce guida e segnali acustici.</li>
+    </ul>
+    <p>Questi dati sono conservati nella memoria del dispositivo leggibile anche prima del primo sblocco dopo un riavvio: serve perché una sveglia possa suonare anche se il telefono si è riavviato durante la notte. Non vengono inviati né letti da noi o da terze parti, e non esiste alcun server a cui potrebbero essere inviati. L'unica copia fuori dal telefono può essere quella del backup di Android, se l'hai attivato (punto 7).</p>
+
+    <h2>4. Permessi richiesti</h2>
+    <p>L'applicazione chiede soltanto i permessi necessari a far suonare sveglie e timer, a mostrare in notifica timer, cronometro e allenamento in corso e a guidarti con voce e segnali acustici mentre ti alleni:</p>
+    <ul>
+      <li><strong>Notifiche</strong>: per mostrare la sveglia che suona e i timer, il cronometro e l'allenamento in corso;</li>
+      <li><strong>Sveglie esatte</strong>: per far suonare sveglie e timer all'orario preciso, anche in risparmio energetico;</li>
+      <li><strong>Notifiche a schermo intero</strong>: per mostrare la sveglia anche a telefono bloccato;</li>
+      <li><strong>Servizi in primo piano</strong> (riproduzione multimediale e il tipo riservato alle sveglie): per far suonare sveglie e timer e guidare l'allenamento con voce e segnali acustici anche a schermo spento;</li>
+      <li><strong>Vibrazione</strong> e <strong>mantenimento del dispositivo attivo</strong>: per la sveglia e per l'allenamento in corso;</li>
+      <li><strong>Avvio all'accensione</strong>: per riprogrammare le sveglie dopo un riavvio del telefono;</li>
+      <li><strong>Accesso ai file audio</strong>: chiesto solo se scegli come suoneria un tuo file audio invece di un suono del telefono, e usato unicamente per riprodurlo.</li>
+    </ul>
+    <p>L'applicazione <strong>non dichiara il permesso di accesso a internet</strong>. Si tratta di una caratteristica verificabile: chiunque può esaminare il pacchetto dell'applicazione e constatare che nessuna comunicazione di rete è tecnicamente possibile.</p>
+
+    <h2>5. Voce guida e suonerie</h2>
+    <p>La voce guida degli allenamenti usa il motore di sintesi vocale installato sul telefono (per esempio quello di Google), al quale l'applicazione passa soltanto il testo da pronunciare, come il nome dell'esercizio. Il motore è un componente del sistema: il suo funzionamento dipende dalle sue impostazioni e dall'informativa del suo fornitore. Puoi disattivare la voce guida dalle impostazioni dell'app.</p>
+    <p>Le suonerie si scelgono tra i suoni del telefono tramite il selettore di Android; l'applicazione memorizza soltanto il riferimento al suono scelto. Se scegli un tuo file audio, l'applicazione lo legge solo per riprodurlo quando la sveglia o il timer suonano.</p>
+
+    <h2>6. Pubblicità e strumenti di analisi</h2>
+    <p>L'applicazione non contiene pubblicità, non utilizza strumenti di analisi o statistiche, non impiega cookie e non include componenti software di terze parti che raccolgano dati.</p>
+
+    <h2>7. Backup di Google</h2>
+    <p>Se hai attivato il backup automatico di Android, il sistema operativo può includere i dati dell'applicazione nella copia di sicurezza associata al tuo account Google. Si tratta di una funzione del sistema Android: la copia resta all'interno del tuo account, sotto il tuo controllo, e non transita da nostri server. Il trattamento è in quel caso disciplinato dall'informativa privacy di Google. Puoi disattivare questa funzione dalle impostazioni del tuo dispositivo.</p>
+
+    <h2>8. Minori</h2>
+    <p>L'applicazione è adatta a qualsiasi età. Non raccogliendo alcun dato, non raccoglie né può raccogliere dati riferibili a minori.</p>
+
+    <h2>9. I tuoi diritti</h2>
+    <p>Il Regolamento (UE) 2016/679 (GDPR) riconosce diritti di accesso, rettifica, cancellazione, limitazione, opposizione e portabilità dei dati personali. Poiché non effettuiamo alcun trattamento di dati personali, non disponiamo di informazioni su cui esercitare tali diritti.</p>
+    <p>Mantieni comunque il pieno controllo dei dati salvati sul tuo dispositivo:</p>
+    <ul>
+      <li>dall'applicazione puoi eliminare in qualsiasi momento sveglie, timer e allenamenti;</li>
+      <li>da Impostazioni di Android → App → Tempo Facile → Spazio di archiviazione → Cancella dati puoi cancellare tutto in un colpo;</li>
+      <li>disinstallando l'applicazione, tutti i dati vengono rimossi con essa;</li>
+      <li>l'eventuale copia di backup si elimina dalle impostazioni del tuo account Google.</li>
+    </ul>
+
+    <h2>10. Modifiche a questa informativa</h2>
+    <p>Eventuali aggiornamenti saranno pubblicati su questa pagina con una nuova data di ultima modifica. Se una versione futura dell'applicazione dovesse introdurre funzioni che comportano un trattamento di dati, l'informativa sarà aggiornata prima del rilascio e ti sarà richiesto il consenso ove necessario.</p>
+
+    <h2>11. Contatti</h2>
+    <p>Per domande su questa informativa: <a href="mailto:app.developer.davide@gmail.com">app.developer.davide@gmail.com</a>.</p>
+  </main>
+
+  <!-- ============================== ENGLISH ============================== -->
+  <main data-lang="en" lang="en" hidden>
+    <div class="callout">
+      <p><strong>Tempo Facile does not collect any personal data.</strong> Alarms, timers, the stopwatch and workouts run entirely on your device, and the app has no internet access.</p>
+    </div>
+
+    <h2>1. Data controller</h2>
+    <p>Tempo Facile is developed and distributed by <strong>QuantumPanda</strong>. For any question about this policy you can write to <a href="mailto:app.developer.davide@gmail.com">app.developer.davide@gmail.com</a>.</p>
+
+    <h2>2. What data we collect</h2>
+    <p><strong>None.</strong> The app does not collect, transmit or store on any server personal data, device identifiers, usage data or location. There are no accounts, sign-ups or contact forms.</p>
+
+    <h2>3. Data that stays on your device</h2>
+    <p>To work, the app saves some information in your phone's local storage, accessible only to the app itself:</p>
+    <ul>
+      <li>your alarms: time, repeat days, label, chosen sound, vibration and snooze length;</li>
+      <li>running timers and the durations used as quick picks;</li>
+      <li>the stopwatch state and lap times;</li>
+      <li>the workouts you create: exercise names and durations, rests and number of rounds;</li>
+      <li>your preferences: theme, timer sound and vibration, gradual volume, voice guide and beeps.</li>
+    </ul>
+    <p>This data is kept in the part of the device storage that is readable even before the first unlock after a restart, so that an alarm can ring even if your phone restarted during the night. It is never sent to or read by us or third parties, and there is no server it could be sent to. The only copy outside the phone can be the Android backup, if you have enabled it (section 7).</p>
+
+    <h2>4. Permissions</h2>
+    <p>The app only asks for the permissions needed to ring alarms and timers, show running timers, the stopwatch and the workout in the notification and guide your workouts with voice and beeps:</p>
+    <ul>
+      <li><strong>Notifications</strong>: to show the ringing alarm and the running timers, stopwatch and workout;</li>
+      <li><strong>Exact alarms</strong>: to ring alarms and timers at the exact time, even in battery saver;</li>
+      <li><strong>Full-screen notifications</strong>: to show the alarm even when the phone is locked;</li>
+      <li><strong>Foreground services</strong> (media playback and the type reserved for alarm apps): to ring alarms and timers and guide the workout with voice and beeps even with the screen off;</li>
+      <li><strong>Vibration</strong> and <strong>keeping the device awake</strong>: for the alarm and the running workout;</li>
+      <li><strong>Run at startup</strong>: to reschedule alarms after the phone restarts;</li>
+      <li><strong>Access to audio files</strong>: requested only if you pick one of your own audio files as a ringtone instead of a phone sound, and used only to play it.</li>
+    </ul>
+    <p>The app <strong>does not declare the internet permission</strong>. This can be verified: anyone can inspect the app package and see that no network communication is technically possible.</p>
+
+    <h2>5. Voice guide and ringtones</h2>
+    <p>The workout voice guide uses the text-to-speech engine installed on your phone (for example Google's), to which the app only passes the text to speak, such as the exercise name. The engine is a system component: how it works depends on its settings and on its provider's policy. You can turn the voice guide off in the app settings.</p>
+    <p>Ringtones are chosen among your phone's sounds through the Android picker; the app only stores a reference to the chosen sound. If you pick one of your own audio files, the app reads it only to play it when the alarm or timer rings.</p>
+
+    <h2>6. Ads and analytics</h2>
+    <p>The app contains no ads, uses no analytics or statistics tools, uses no cookies and includes no third-party components that collect data.</p>
+
+    <h2>7. Google backup</h2>
+    <p>If you have enabled Android automatic backup, the operating system may include the app's data in the backup linked to your Google account. This is an Android system feature: the copy stays inside your account, under your control, and never passes through our servers. In that case the processing is governed by Google's privacy policy. You can turn this feature off in your device settings.</p>
+
+    <h2>8. Children</h2>
+    <p>The app is suitable for all ages. Since it collects no data, it does not and cannot collect data relating to children.</p>
+
+    <h2>9. Your rights</h2>
+    <p>Regulation (EU) 2016/679 (GDPR) grants rights of access, rectification, erasure, restriction, objection and portability of personal data. Since we do not process any personal data, we hold no information on which to exercise those rights.</p>
+    <p>You still keep full control of the data saved on your device:</p>
+    <ul>
+      <li>in the app you can delete alarms, timers and workouts at any time;</li>
+      <li>in Android Settings → Apps → Tempo Facile → Storage → Clear data you can erase everything at once;</li>
+      <li>uninstalling the app removes all its data;</li>
+      <li>any backup copy can be deleted from your Google account settings.</li>
+    </ul>
+
+    <h2>10. Changes to this policy</h2>
+    <p>Any update will be published on this page with a new last-updated date. If a future version of the app introduced features involving data processing, this policy would be updated before the release and your consent would be requested where required.</p>
+
+    <h2>11. Contact</h2>
+    <p>For questions about this policy: <a href="mailto:app.developer.davide@gmail.com">app.developer.davide@gmail.com</a>.</p>
+  </main>
+
+  <!-- ============================== ESPAÑOL ============================== -->
+  <main data-lang="es" lang="es" hidden>
+    <div class="callout">
+      <p><strong>Tempo Facile no recopila ningún dato personal.</strong> Alarmas, temporizadores, cronómetro y entrenamientos funcionan íntegramente en tu dispositivo y la aplicación no tiene acceso a internet.</p>
+    </div>
+
+    <h2>1. Responsable del tratamiento</h2>
+    <p>La aplicación Tempo Facile está desarrollada y distribuida por <strong>QuantumPanda</strong>. Para cualquier pregunta sobre esta política puedes escribir a <a href="mailto:app.developer.davide@gmail.com">app.developer.davide@gmail.com</a>.</p>
+
+    <h2>2. Qué datos recopilamos</h2>
+    <p><strong>Ninguno.</strong> La aplicación no recopila, no transmite ni guarda en ningún servidor datos personales, identificadores del dispositivo, datos de uso ni ubicación. No hay cuentas, registros ni formularios de contacto.</p>
+
+    <h2>3. Datos que permanecen en tu dispositivo</h2>
+    <p>Para funcionar, la aplicación guarda cierta información en la memoria local del teléfono, accesible solo para la propia aplicación:</p>
+    <ul>
+      <li>las alarmas: hora, días de repetición, etiqueta, sonido elegido, vibración y duración de la posposición;</li>
+      <li>los temporizadores en curso y las duraciones usadas como accesos rápidos;</li>
+      <li>el estado del cronómetro y los tiempos de las vueltas;</li>
+      <li>los entrenamientos que creas: nombres y duraciones de los ejercicios, descansos y número de rondas;</li>
+      <li>las preferencias: tema, sonido y vibración de los temporizadores, volumen gradual, guía de voz y pitidos.</li>
+    </ul>
+    <p>Estos datos se guardan en la parte de la memoria del dispositivo que se puede leer incluso antes del primer desbloqueo tras un reinicio, para que una alarma pueda sonar aunque el teléfono se haya reiniciado durante la noche. Nunca se envían a nosotros ni a terceros, nadie los lee, y no existe ningún servidor al que puedan enviarse. La única copia fuera del teléfono puede ser la copia de seguridad de Android, si la has activado (apartado 7).</p>
+
+    <h2>4. Permisos</h2>
+    <p>La aplicación solo pide los permisos necesarios para que suenen alarmas y temporizadores, para mostrar en la notificación los temporizadores, el cronómetro y el entrenamiento en curso y para guiarte con voz y pitidos mientras entrenas:</p>
+    <ul>
+      <li><strong>Notificaciones</strong>: para mostrar la alarma que suena y los temporizadores, el cronómetro y el entrenamiento en curso;</li>
+      <li><strong>Alarmas exactas</strong>: para que alarmas y temporizadores suenen a la hora precisa, también en ahorro de batería;</li>
+      <li><strong>Notificaciones a pantalla completa</strong>: para mostrar la alarma incluso con el teléfono bloqueado;</li>
+      <li><strong>Servicios en primer plano</strong> (reproducción multimedia y el tipo reservado a las alarmas): para que suenen alarmas y temporizadores y guiar el entrenamiento con voz y pitidos incluso con la pantalla apagada;</li>
+      <li><strong>Vibración</strong> y <strong>mantener el dispositivo activo</strong>: para la alarma y el entrenamiento en curso;</li>
+      <li><strong>Inicio al encender</strong>: para reprogramar las alarmas tras reiniciar el teléfono;</li>
+      <li><strong>Acceso a archivos de audio</strong>: solo se pide si eliges como tono un archivo de audio tuyo en lugar de un sonido del teléfono, y se usa únicamente para reproducirlo.</li>
+    </ul>
+    <p>La aplicación <strong>no declara el permiso de acceso a internet</strong>. Es algo verificable: cualquiera puede examinar el paquete de la aplicación y comprobar que ninguna comunicación de red es técnicamente posible.</p>
+
+    <h2>5. Guía de voz y tonos</h2>
+    <p>La guía de voz de los entrenamientos usa el motor de síntesis de voz instalado en el teléfono (por ejemplo el de Google), al que la aplicación solo pasa el texto que se debe pronunciar, como el nombre del ejercicio. El motor es un componente del sistema: su funcionamiento depende de sus ajustes y de la política de su proveedor. Puedes desactivar la guía de voz en los ajustes de la aplicación.</p>
+    <p>Los tonos se eligen entre los sonidos del teléfono mediante el selector de Android; la aplicación solo guarda la referencia al sonido elegido. Si eliges un archivo de audio tuyo, la aplicación solo lo lee para reproducirlo cuando suena la alarma o el temporizador.</p>
+
+    <h2>6. Publicidad y herramientas de análisis</h2>
+    <p>La aplicación no contiene publicidad, no utiliza herramientas de análisis ni estadísticas, no usa cookies y no incluye componentes de terceros que recopilen datos.</p>
+
+    <h2>7. Copia de seguridad de Google</h2>
+    <p>Si has activado la copia de seguridad automática de Android, el sistema operativo puede incluir los datos de la aplicación en la copia asociada a tu cuenta de Google. Es una función del sistema Android: la copia permanece en tu cuenta, bajo tu control, y no pasa por nuestros servidores. En ese caso el tratamiento se rige por la política de privacidad de Google. Puedes desactivar esta función en los ajustes de tu dispositivo.</p>
+
+    <h2>8. Menores</h2>
+    <p>La aplicación es apta para todas las edades. Al no recopilar ningún dato, no recopila ni puede recopilar datos relativos a menores.</p>
+
+    <h2>9. Tus derechos</h2>
+    <p>El Reglamento (UE) 2016/679 (RGPD) reconoce los derechos de acceso, rectificación, supresión, limitación, oposición y portabilidad de los datos personales. Como no realizamos ningún tratamiento de datos personales, no disponemos de información sobre la que ejercer esos derechos.</p>
+    <p>Aun así mantienes el control total de los datos guardados en tu dispositivo:</p>
+    <ul>
+      <li>desde la aplicación puedes eliminar alarmas, temporizadores y entrenamientos en cualquier momento;</li>
+      <li>en Ajustes de Android → Aplicaciones → Tempo Facile → Almacenamiento → Borrar datos puedes borrarlo todo de una vez;</li>
+      <li>al desinstalar la aplicación se eliminan todos sus datos;</li>
+      <li>la posible copia de seguridad se elimina desde los ajustes de tu cuenta de Google.</li>
+    </ul>
+
+    <h2>10. Cambios en esta política</h2>
+    <p>Cualquier actualización se publicará en esta página con una nueva fecha de última modificación. Si una versión futura de la aplicación introdujera funciones que impliquen tratamiento de datos, esta política se actualizaría antes del lanzamiento y se te pediría el consentimiento cuando sea necesario.</p>
+
+    <h2>11. Contacto</h2>
+    <p>Para preguntas sobre esta política: <a href="mailto:app.developer.davide@gmail.com">app.developer.davide@gmail.com</a>.</p>
+  </main>
+
+  <footer>
+    <span data-lang="it">Tempo Facile — QuantumPanda. Applicazione senza raccolta di dati.</span>
+    <span data-lang="en" hidden>Tempo Facile — QuantumPanda. An app that collects no data.</span>
+    <span data-lang="es" hidden>Tempo Facile — QuantumPanda. Aplicación sin recopilación de datos.</span>
+  </footer>
+</div>
+
+<script>
+  (function () {
+    var langs = ["it", "en", "es"];
+    function show(lang) {
+      document.documentElement.lang = lang;
+      document.querySelectorAll("[data-lang]").forEach(function (el) {
+        el.hidden = el.getAttribute("data-lang") !== lang;
+      });
+      document.querySelectorAll(".lang-switch button").forEach(function (b) {
+        b.setAttribute("aria-pressed", String(b.getAttribute("data-set") === lang));
+      });
+      document.title = {
+        it: "Informativa sulla privacy — Tempo Facile",
+        en: "Privacy policy — Tempo Facile",
+        es: "Política de privacidad — Tempo Facile"
+      }[lang];
+    }
+    document.querySelectorAll(".lang-switch button").forEach(function (b) {
+      b.addEventListener("click", function () { show(b.getAttribute("data-set")); });
+    });
+    // Lingua iniziale: parametro ?lang=, poi lingua del browser, altrimenti italiano.
+    var param = new URLSearchParams(location.search).get("lang");
+    var nav = (navigator.language || "it").slice(0, 2).toLowerCase();
+    show(langs.indexOf(param) >= 0 ? param : (langs.indexOf(nav) >= 0 ? nav : "it"));
+  })();
+</script>
+</body>
+</html>
